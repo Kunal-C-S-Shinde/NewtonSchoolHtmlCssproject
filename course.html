@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial scale=1.0" >
+        <title>University Website Design</title>
+        <link rel="stylesheet" href="/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+
+
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/University_of_Iowa_seal.png" ></a>
+                
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Courses</h1>
+            
+        </section>
+
+    <!----- courses----->
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>BE/B.Tech- Bachelor of Technology. B.Arch- Bachelor of Architecture. BCA- Bachelor of Computer Applications. Master of Arts (MA). Master of Science (MS, MSc). Master of Research (MRes).<br>
+           Master by Research (MPhil). Master of Studies (MSt). Master of Business Administration (MBA). Master of Library Science (MLS, MLIS, MSLS). Master of Public Administration (MPA)</p>
+
+    
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Intermediate (10+2) Course is the crucial and decisive course for the career
+            of a young man or woman. With the much-thought, carefully finalized choice of
+            the subject combinations at the Intermediate level, the choice of the youth with
+            regard to the stream of their future studies is decided or crystallized.</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Undergraduate education is education conducted after secondary education and before postgraduate education. 
+                It typically includes all postsecondary programs up to the level of a bachelor's degree.</p>
+        </div>
+        <div class="course-col">
+            <h3>Post-Graduation</h3>
+            <p>Postgraduate education  involves learning and studying for academic or professional degrees, 
+               academic or professional certificates, academic or professional diplomas, 
+               or other qualifications for which a first or bachelor's degree generally is required, 
+               and it is normally considered to be part of higher education.</p>
+        </div>
+    </div>
+</section>
+<!-------facilities--->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>The Campus is endowed with renovated hostels, medical support systems 
+        (along with physiotherapy centre), modern gymnasium, swimming pool, a huge parking facility 
+        (available to both students and faculty), air conditioned sports complex and playground of 
+        international standards. A complete smoke and vehicle free zone, the College provides an 
+        eco-friendly environment to its students with the latest initiatives of solar heating, 
+        rainwater harvesting, paper recycling and other green initiatives. The College has taken 
+        measures to address the need for vigilance and security. The campus is CCTV-enabled to cater 
+        to the safety requirements of a well endowed and equipped campus receiving a huge footfall.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="/images/library.png">
+            <h3>World Class Library</h3>
+            <p>Attached to the main academic block, the Library is a two storey centrally air-conditioned and Wi-Fi enabled unit with seating capacity for about 300 readers divided between two floors.</p>
+        </div>
+            <div class="facilities-col">
+                <img src="/images/cafeteria.png">
+                <h3>Tasty And Healthy Food</h3>
+                <p>The College Canteen is a popular meeting place for students serving a variety of dishes at moderate prices. The ambience of the College canteen reflects the youthfulness of its visitors with its elegant tables, cozy chairs and colorful grafitti.</p>
+            </div>
+                <div class="facilities-col">
+                    <img src="/images/basketball.png">
+                    <h3>Largest Playground</h3>
+                    <p>The College has a state-of-art international standard multipurpose indoor sports stadium. The courts laid with wooden planks are used for Badminton, Basket Ball, Volley Ball, Judo, Wrestling, etc. </p>
+                </div>
+    </div>
+</section>
+        
+            
+    
+   <!-----footer------>
+   <section class="footer">
+    <h4>About Us</h4>
+    <p>The history of university is best represented in several distinct phases.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made By Kunal Shinde</p>
+   </section>
+
+   <!-----javascript toggle menu----->
+   <script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+         
+    }
+   </script>
+    </body>
